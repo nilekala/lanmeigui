@@ -1,0 +1,18 @@
+site_name: 蓝玫瑰学长笔记
+site_description: Documentation for fast and lightweight Docker container based virtualization framework.
+site_favicon: img/favicon.jpg
+#github 版本管理
+repo_url: https://github.com/nilekala/tangnengtong.git
+
+pages:
+- [index.md,主页]
+- [300days/300days.md,300天]
+- [300days/xiaoxue1.md,300天,小学一年级]
+- [faq.md,问题]
+- [about.md,关于]
+
+
+#[cosmo|united|yeti|journal|bootstrap|readable|readthedocs|cerulean|simplex|flatly|spacelab|amelia|cyborg|slate|mkdocs]
+#readthedocs
+theme: yeti
+copyright: Copyright &copy; 2015-2016, CWT, Inc.

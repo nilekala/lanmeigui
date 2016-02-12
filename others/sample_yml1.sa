@@ -1,0 +1,20 @@
+
+site_name: Semestre 3
+site_descrition: Notes de cours du semestre 3, M2R Écosciences et Microbiologie
+site_author: Samuel BARRETO
+repo_url: https://github.com/sam217pa/M2EM-semestre-3
+
+theme: readthedocs
+markdown_extensions: [tables, fenced_code, mathjax, footnotes, def_list, abbr]
+
+extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','js/mathjaxhelper.js','js/fabric.custom.min.js','js/texturecanvas.js','js/analytics.js'] 
+    # copié depuis https://github.com/EdyJ/vehicle-physics-docs/blob/master/mkdocs.yml
+    # le reste des js/files, je ne sais pas à quoi ils servent.
+
+pages:
+  - ['index.md', 'Accueil']
+  - ['misc.md' , 'Divers']
+  - ['cgm_1.md', 'CGM', 'Premier Cours'] #changer nom premier cours
+  - ['imh_1.md', 'IMH', 'Premier Cours']
+  - ['rsb_1.md', 'RSB', 'Premier Cours']
+  - ['eco_1.md', 'ECO', 'Premier Cours']
